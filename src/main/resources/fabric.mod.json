@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "colorblocks",
+  "version": "${version}",
+  "name": "Color Blocks",
+  "description": "Solid color blocks for your builds.",
+  "authors": [
+    "hiimjustin000"
+  ],
+  "contact": {
+    "homepage": "https://www.hiimjustin000.com/",
+    "sources": "https://github.com/hiimjustin000/ColorBlocks",
+    "issues": "https://github.com/hiimjustin000/ColorBlocks/issues"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/colorblocks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.hiimjustin000.colorblocks.ColorBlocks"
+    ],
+    "client": [
+      "com.hiimjustin000.colorblocks.ColorBlocksClient"
+    ],
+    "fabric-datagen": [
+      "com.hiimjustin000.colorblocks.ColorBlocksDataGenerator"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
