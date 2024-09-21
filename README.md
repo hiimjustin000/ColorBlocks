@@ -1,4 +1,4 @@
-<p style="text-align: center;"><img src="src/main/resources/assets/colorblocks/icon.png" alt="Color Blocks Logo"></p>
+<p align="center"><img src="src/main/resources/assets/colorblocks/icon.png" alt="Color Blocks Logo"></p>
 
 # Color Blocks
 Solid color blocks for your builds.
